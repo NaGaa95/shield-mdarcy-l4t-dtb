@@ -8042,7 +8042,7 @@
 		nvidia,force-mode = <0x01>;
 		nvidia,cf = <0x06>;
 		nvidia,ci = <0x00>;
-		nvidia,cg = <0x02>;
+		nvidia,cg = <0x04>;
 		nvidia,idle-override;
 		nvidia,one-shot-calibrate;
 		nvidia,pwm-period-nanoseconds = <0x9c4>;
@@ -8053,6 +8053,7 @@
 		nvidia,pwm-voltage-step-microvolts = <0x4b00>;
 		linux,phandle = <0x2f>;
 		phandle = <0x2f>;
+		nvidia,lut-max-size = <0x41>;
 	};
 
 	soctherm@0x700E2000 {
